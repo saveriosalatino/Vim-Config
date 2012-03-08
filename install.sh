@@ -32,6 +32,19 @@ git add .gitmodules bundle
 git submodule add git://github.com/vim-scripts/Rainbow-Parenthsis-Bundle.git bundle/rainboxpar.vim
 git add .gitmodules bundle
 git submodule add git://github.com/wincent/Command-T.git bundle/Command-T.git
+git add .gitmodules bundle
+git submodule add git://github.com/ddollar/nerdcommenter.git bundle/nerdcommenter.vim
+git add .gitmodules bundle
+git submodule add git://github.com/ervandew/supertab.git bundle/supertab.vim
+git add .gitmodules bundle
+git submodule add git://github.com/Lokaltog/vim-easymotion.git bundle/easymotion.vim
+git add .gitmodules bundle
+git submodule add git://github.com/mileszs/ack.vim.git bundle/ack.vim
+git add .gitmodules bundle
+git submodule add git://github.com/mileszs/ack.vim.git bundle/ack.vim
+git add .gitmodules bundle
+git submodule add git://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+git add .gitmodules bundle
 git commit -am "Base install of Vim Plugin"
 
 test -f priv_install.sh && ./priv_install.sh
