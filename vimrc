@@ -9,6 +9,10 @@ if !has("gui")
   colorscheme badwolf
 endif
 
+if has("gui")
+  set guifont=Menlo:h14
+endif
+
 "Load Vim Pathogen in bundle path
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
@@ -156,7 +160,8 @@ set title
 
 " Enable syntastic syntax checking for supported languages
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
+" Controllare la funzione seguente
+" set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
